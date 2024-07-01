@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    line-height: calc(1em +0.5rem);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "roboto", sans-serif;
+}
+button{
+    padding: 0;
+    background: none;
+    border:none;
+    cursor: pointer;
+    display: inline-block;
+ 
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style-type: none;
+    overflow: none;    
+}
+svg{
+   height: 16px;
+   width: 16px;
+   margin-right: 0.5rem;
+}
+main{
+    padding-top: 10rem;
+}
+/* size */
+:root{
+    --size-xs:0.5rem;
+    --size-sm: 0.75rem;
+    --size-base: 1rem;/* 16px */
+    --size-lg:1.125rem; /* 18px */
+    --size-xl:1.25rem;/* 20px */
+    --size-2xl:1.5rem;/* 24px */
+    --size-3xl:1.875rem;/* 30px */
+    --size-4xl:2.25rem;/* 36px */
+    --size-5xl:3rem;/* 48px */
+    --size-6xl:3.75rem;/* 60px */
+    --size-7xl:4.5rem;/* 72px */
+    --size-8xl:6rem;/* 96px */
+    --size-9xl:8rem;/* 128px */
+    --size-10xl:10rem;/* 160px */
+}
+/* font */
+
+:root{
+    --clr-yellow:#f8db62;
+    --clr-gray:#4c4d5f;
+    --clr-teal: #00b289;
+}
