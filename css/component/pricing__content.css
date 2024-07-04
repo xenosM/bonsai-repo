@@ -42,6 +42,7 @@
     border-top: 2px solid var(--clr-teal);
     padding-top: 2.5rem;
     padding-left: 0;
+    margin-bottom:1rem;
 }
 .pricing-content-list li{
     margin-bottom: 1.5rem;
