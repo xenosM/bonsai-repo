@@ -1,0 +1,12 @@
+.addons__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* header */
+.addons__header{
+    color: var(--clr-gray);
+    font-family: "Noto Serif";
+    font-weight: 500;
+}
+/* content */
