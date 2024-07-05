@@ -1,7 +1,6 @@
 .pricing__content-container{
     display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+    justify-content: space-between;
     color: var(--clr-gray);
 }
 .pricing__content-element{
