@@ -2,11 +2,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--clr-gray);
 }
 /* header */
 .addons__header{
-    color: var(--clr-gray);
     font-family: "Noto Serif";
     font-weight: 500;
 }
 /* content */
+
+.addons__content-container{
+    
+}
+.addons__content-element{
+    border:1px solid red;
+    display: flex;
+    padding: 0.5rem 3rem 0.5rem 0.5rem ;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    width: 100%;
+}
+.addons__content-title{
+    font-size: var(--size-xl);
+    font-weight: 600;
+}
+.addons__content-description{
+    font-weight: 100;
+    font-size: var(--size-base);
+
+}
+.addons__content-price{
+    font-size: var(--size-3xl);
+    font-weight: 600;
+}
