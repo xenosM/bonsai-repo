@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2.5rem;
     color: var(--clr-gray);
+    margin-top:5rem;
 }
 /* header */
 .addons__header{
     font-family: "Noto Serif";
-    font-weight: 500;
+    font-weight:500;
+    font-size: var(--size-3xl);
 }
 /* content */
 
@@ -15,23 +18,60 @@
     width: 100%;
 }
 .addons__content-element{
-    border:1px solid red;
     display: flex;
-    padding: 0.5rem 3rem 0.5rem 0.5rem ;
+    padding: 0.75rem 7rem 0.75rem 2.5rem ;
     justify-content: space-between;
     align-items: center;
     height: 7rem;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 8px rgba(0, 0,0,0.1);
 }
-.addons__content-title{
-    font-size: var(--size-xl);
-    font-weight: 600;
-}
-.addons__content-description{
-    font-weight: 100;
-    font-size: var(--size-base);
+.addons__content-bonsaitax{
 
 }
-.addons__content-price{
+.addons__content-title{
+    font-size: var(--size-2xl);
+    font-weight: 500;
+}
+.addons__content-description{
+    font-weight: lighter;
+    font-size: var(--size-base);
+}
+.addons__content-free{
     font-size: var(--size-3xl);
     font-weight: 600;
 }
+.addons__content-price{
+    font-size: var(--size-5xl);
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.addons__content-price span{
+    font-weight: 500;
+    font-size: var(--size-sm);
+} 
+.bottom_gap{
+    margin-bottom: 0.5rem;
+}
+.addons__content-btn{
+    color: var(--clr-teal);
+    font-weight: 600;
+    font-size: 12.5px;
+}
+.addons__content-btn-sign{
+}
+.addons__content-btn-sign{
+    transition: all 0.3s;
+}
+ .addons__content-btn:hover .addons__content-btn-sign{
+    margin-left: 6px;
+}
+
+.addons__content-bonsaitax{
+    padding-top:2.5rem;
+    padding-bottom:2.5rem
+} 
