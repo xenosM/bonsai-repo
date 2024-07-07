@@ -1,0 +1,27 @@
+.signin__container{
+    background-color: #f2faff;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5rem 3rem;
+    margin: 3rem 7rem 0 7rem;
+    border-radius: 8px;
+}
+.signin__right{
+    text-wrap: wrap;
+}
+.signin__description{
+    font-family: 'Noto serif';
+    font-size: var(--size-4xl);
+    color: var(--clr-gray);
+}
+.signin__green{
+    color: var(--clr-teal);
+}
+.signin__btn{
+    background-color: var(--clr-teal);
+    color: white;
+    padding: 1rem 1.75rem;
+    border-radius: 3px;
+    text-wrap: nowrap;
+}
