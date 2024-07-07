@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 1.25rem 11rem;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
 }
 .header__logo{
     width: 150px;
