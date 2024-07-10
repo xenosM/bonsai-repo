@@ -3,11 +3,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 1.25rem 11rem;
+    padding: 1.25rem 10.75rem;
     position: fixed;
     background-color: white;
     z-index: 2;
-    gap: 7.6rem;
+    gap: 7.95rem;
 }
 .header__logo{
     width: 150px;
