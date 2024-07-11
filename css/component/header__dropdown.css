@@ -1,7 +1,5 @@
 .header__products .header__dropdown-content{
-    display:none;
-    max-width: 275px;
-    padding: 2rem;
+    /* display:none; */
     position: absolute;
     left: 25%;
     z-index: 1;
@@ -9,12 +7,26 @@
     box-shadow: 0 0 18px rgba(0,0,0,0.1);
     margin-top: 1rem;
 }
-.header__products .header__dropdown-element{
+.header__products .header__dropdown-content .💪{
+    display: flex;
+}
+.header__products:hover .header__dropdown-content,.header__dropdown-content:hover{
+    display: block;
+} 
+.header__dropdown-workflow:hover .header__dropdown-right{
+    display: block;
+}
+/* LEFT SIDE */
+.header__products .header__dropdown-content .header__dropdown-left{
+    max-width: 275px;
+    padding: 2rem;
+}
+.header__products .header__dropdown-left .header__dropdown-element{
     border-bottom: 0.1px solid gray;
     padding:2rem 0 ;
     
 }
-.header__products .dropdown__title{
+.header__products .header__dropdown-left .dropdown__title{
     color: #292a2d;
     margin-bottom:10px ;
     font-size: var(--size-xl);
@@ -22,10 +34,36 @@
     font-family: 'Noto Serif';
 }
 
-.header__products .dropdown__description{
+.header__products .header__dropdown-left .dropdown__description{
     color: gray;
     font-weight: lighter;
 }
-.header__products:hover .header__dropdown-content{
-    display: block;
-} 
+/* RIGHT SIDE */
+.header__products .header__dropdown-right{
+    padding: 2rem;
+    display: none;
+}
+.header__products .header__dropdown-right .header__dropdown-grid{
+    display: grid;
+    grid-template-columns: 275px 275px;
+    gap:1rem ;    
+    height: 100%;
+}
+.header__products .header__dropdown-right .header__dropdown-element{
+    display: flex;
+    gap: 0.5rem;
+    align-items: start;
+}
+.header__products .header__dropdown-right .header__dropdown-img{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.header__products .header__dropdown-right .header__dropdown-title{
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.header__products .header__dropdown-right .header__dropdown-description{
+    font-size: var(--size-sm);
+    color:#6d6d6d;
+}
