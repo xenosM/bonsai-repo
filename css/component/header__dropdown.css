@@ -55,9 +55,12 @@
 }
 /* RIGHT SIDE */
 .header__products .header__dropdown-right{
-    display: none;
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
     padding: 0.25rem;
-    transition: all 2s;
+    transition: all 0.3s;
 }
 .header__products .header__dropdown-right .header__dropdown-grid{
     display: grid;
