@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="css/component/signin.css">
     <link rel="stylesheet" href="css/component/header__dropdown.css">
     <!-- JS -->
-     <script src="JavaScript/app.js">  </script>
+     <script src="JavaScript/product__dropdown.js">  </script>
+     <script src="JavaScript/template__dropdown.js"></script>
 </head>
 <body>
         <!-- HEADER -->
@@ -33,7 +34,7 @@
                 <li class="header__list-element header__products">
                     <!-- DROPDOWN CONTAINER -->
                     <div class="header__products-dropdown-container">
-                        <span class="header__dropdown ">Products <i class="fa fa-caret-down"></i></span>
+                        <span class="header__dropdown ">Products <img src="pictures/down-arrow.svg" style="height: 10px; width: 10px;color: var(--clr-gray);" ></span>
                         <!-- Dropdown content -->
                         <div class="header__dropdown-content">
                             <div class="💪">
@@ -127,8 +128,88 @@
 
                     <!-- CONTENT END -->
                 </li>
-                <li class="header__list-element">
-                    <span class="header__dropdown">Templates <i class="fa fa-caret-down"></i></span>
+                <li class="header__list-element header__templates">
+                    <span class="header__dropdown">Templates <img src="pictures/down-arrow.svg" style="height: 10px; width: 10px;color: var(--clr-gray);" ></span>
+                    <!-- DROPDOWN CONTENT -->
+                    <main class="header__dropdown-content" id="template-content">
+                        <div class="💪">
+                            <!-- LEFT SIDE -->
+                            <section class="header__dropdown-leftside" id="template__leftside">
+                                <!-- element 1 -->
+                                <div class="dropdown__leftside-element" id="template-1">
+                                    <div class="leftside__element-items">
+                                        <img src="pictures/contracts.svg"class="element__items-img">
+                                        <p class="element__items-name">Contract Templates</p>
+                                    </div>
+                                    <img src="pictures/right-arrow.svg" class="leftside__element-arrow">
+                                </div>
+                                    <!-- element 2 -->                               
+                                <div class="dropdown__leftside-element" id="template-2">
+                                    <div class="leftside__element-items">
+                                        <img src="pictures/contracts.svg"class="element__items-img">
+                                        <p class="element__items-name">Proposal Templates</p>
+                                    </div>
+                                    <img src="pictures/right-arrow.svg" class="leftside__element-arrow">
+                                </div>
+                                <!-- element 3 -->
+                                <div class="dropdown__leftside-element" id="template-3">
+                                    <div class="leftside__element-items">
+                                        <img src="pictures/invoice.svg"class="element__items-img">
+                                        <p class="element__items-name">Invoice Templates</p>
+                                    </div>
+                                    <img src="pictures/right-arrow.svg" class="leftside__element-arrow">
+                                </div>
+                                <!-- element 4 -->
+                                <div class="dropdown__leftside-element" id="template-4">
+                                    <div class="leftside__element-items">
+                                        <img src="pictures/contracts.svg"class="element__items-img">
+                                        <p class="element__items-name">Agreement Templates</p>
+                                    </div>
+                                    <img src="pictures/right-arrow.svg" class="leftside__element-arrow">
+                                </div>
+                                <!-- element 5 -->
+                                <div class="dropdown__leftside-element" id="template-5">
+                                    <div class="leftside__element-items">
+                                        <img src="pictures/proposal.svg"class="element__items-img">
+                                        <p class="element__items-name">Quote Templates </p>
+                                    </div>
+                                    <img src="pictures/right-arrow.svg" class="leftside__element-arrow">
+                                </div>
+                                <!-- element 6 -->
+                                <div class="dropdown__leftside-element" id="template-6">
+                                    <div class="leftside__element-items">
+                                        <img src="pictures/time_tracking.svg"class="element__items-img">
+                                        <p class="element__items-name">Scope of Work Templates</p>
+                                    </div>
+                                    <img src="pictures/right-arrow.svg" class="leftside__element-arrow">
+                                </div>
+                                <!-- element 7 -->
+                                <div class="dropdown__leftside-element" id="template-7">
+                                    <div class="leftside__element-items">
+                                        <img src="pictures/proposal.svg"class="element__items-img">
+                                        <p class="element__items-name">Brief Templates</p>
+                                    </div>
+                                    <img src="pictures/right-arrow.svg" class="leftside__element-arrow">
+                                </div>
+    
+                            </section>
+                            <!-- RIGHTSIDE -->
+                            <section class="header__dropdown-rightside">
+                                <div class="dropdown__rightside-title">
+                                </div>
+                                <div class="dropdown__rightside-element-container">
+                                    <div class="dropdown__rightside-element" id="element-1"></div>
+                                    <div class="dropdown__rightside-element" id="element-2"></div>
+                                    <div class="dropdown__rightside-element" id="element-3"></div>
+                                    <div class="dropdown__rightside-element" id="element-4"></div>
+                                </div>
+                                <div class="dropdown__rightside-link">
+                                    <a href="#">See All Templates</a>
+                                </div>
+                            </section>
+                        </div>
+                    </main>
+                    <!-- DROPDOWN CONTENT END -->
                 </li>
                 <li class="header__list-element">
                     <a class="header__link" href="">Pricing</a>

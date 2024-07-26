@@ -1,3 +1,4 @@
+/* PRODUCTS */
 .header__products .header__products-dropdown-container{
     position: relative;
 }
@@ -87,4 +88,94 @@
 .header__products .header__dropdown-right .header__dropdown-description{
     font-size: var(--size-sm);
     color:#6d6d6d;
+}
+
+
+/* TEMPLATE */
+.header__templates{
+    position:relative;
+}
+.header__templates .header__dropdown-content{
+        display: none;
+       position:absolute;
+       background-color: white;
+       padding: 0;
+       left:-100px;
+       top: calc(100% - 14px);
+       box-shadow: 0px 0px 200px rgba(0,0,0,0.1);
+}
+.header__templates .header__dropdown-content .💪{
+    display: flex;
+    flex-direction: row;
+}
+.header__templates:hover .header__dropdown-content{
+    display: block;
+}
+ .dropdown__leftside-element:hover{
+    background-color: rgb(251, 251, 251);
+}
+.dropdown__leftside-element:hover .leftside__element-arrow{
+    display: block;
+}
+.dropdown__rightside-element:hover{
+    transform: scale(1.04);
+}
+
+/* LEFTSIDE */
+.header__templates .💪 .header__dropdown-leftside{
+    width: 350px;
+    padding-bottom: 2.5rem;
+    padding-top: 0.5rem;
+}
+.header__templates .💪 .header__dropdown-leftside .dropdown__leftside-element{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0px 2.5rem;
+}
+.header__templates .💪 .header__dropdown-leftside .dropdown__leftside-element .leftside__element-items{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 14px;
+}
+.leftside__element-items .element__items-img{
+    height: 18px;
+}
+.leftside__element-arrow{
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+/* RIGHT SIDE */
+.header__templates .💪 .header__dropdown-rightside{
+    width: 380px;
+    padding-right: 3.5rem;
+}
+.dropdown__rightside-title{
+    font-family: 'Noto Serif';
+    font-size: var(--size-xl);
+    color: black;
+}
+.dropdown__rightside-element-container{
+    display: flex;
+    flex-direction:column ;
+    gap: 0.65rem;
+    font-size: 14px
+}
+.dropdown__rightside-element{
+    border: 1px solid rgb(155, 154, 154);
+    text-align: center;
+    border-radius: 3px;
+    height: 76px;
+}
+
+.dropdown__rightside-link{
+    text-align: center;
+}
+.dropdown__rightside-link a{
+    color: var(--clr-teal);
+    font-size: 14px;
+    font-weight: 600;
 }
