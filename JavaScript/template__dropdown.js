@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         document.getElementById(templateId).onmouseover=()=>{
             showContent(i-1);
         }
+        console.log(i)
     }
     //display off hover
     document.querySelector('#template-content').onmouseleave = ()=>{
