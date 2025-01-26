@@ -29,7 +29,7 @@ svg{
    margin-right: 0.5rem;
 }
 main{
-    padding: 15rem 11rem;
+    padding: 15rem 11rem 0 11rem;
 }
 /* size */
 :root{
